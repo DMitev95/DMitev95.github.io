@@ -75,6 +75,7 @@ const Education = () => {
                 <a
                   href="https://www.udemy.com/certificate/UC-9591e8e5-4c72-471f-b7c2-870c0c1ac658/"
                   className="link"
+                  target="_blank"
                 >
                   Udemy Course Completion Certificate | Udemy
                   <i className="link-icon">
@@ -89,6 +90,7 @@ const Education = () => {
                 <a
                   href="https://softuni.bg/certificates/details/131034/e0d90839"
                   className="link"
+                  target="_blank"
                 >
                   C# OOP - February 2022
                   <i className="link-icon">
@@ -103,6 +105,7 @@ const Education = () => {
                 <a
                   href="https://softuni.bg/certificates/details/134976/9185ece9"
                   className="link"
+                  target="_blank"
                 >
                   MS SQL - May 2022
                   <i className="link-icon">
@@ -117,6 +120,7 @@ const Education = () => {
                 <a
                   href="https://softuni.bg/certificates/details/138422/20c0c454"
                   className="link"
+                  target="_blank"
                 >
                   Entity Framework Core - June 2022
                   <i className="link-icon">
@@ -131,6 +135,7 @@ const Education = () => {
                 <a
                   href="https://softuni.bg/certificates/details/146626/2abd36df"
                   className="link"
+                  target="_blank"
                 >
                   ASP.NET Fundamentals - September 2022
                   <i className="link-icon">
@@ -145,6 +150,7 @@ const Education = () => {
                 <a
                   href="https://softuni.bg/certificates/details/152350/f2480bc8"
                   className="link"
+                  target="_blank"
                 >
                   ASP.NET Advanced - October 2022
                   <i className="link-icon">

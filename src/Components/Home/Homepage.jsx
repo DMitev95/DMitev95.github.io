@@ -21,10 +21,13 @@ const Homepage = () => {
             passion to real projects and products in the field.
           </p>
           <div className="home-sci">
-            <a href="https://www.linkedin.com/in/dimitar-mitev-625667239/">
+            <a
+              href="https://www.linkedin.com/in/dimitar-mitev-625667239/"
+              target="_blank"
+            >
               <GrLinkedinOption></GrLinkedinOption>
             </a>
-            <a href="https://github.com/nfsmitko">
+            <a href="https://github.com/nfsmitko" target="_blank">
               <GrGithub></GrGithub>
             </a>
           </div>

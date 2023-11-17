@@ -22,7 +22,7 @@ const Portfolio = () => {
               display top 30 radio stations from Bulgaria. Website is build with
               React.js.
             </p>
-            <a href="https://github.com/nfsmitko/OnlineRadio">
+            <a href="https://github.com/nfsmitko/OnlineRadio" target="_blank">
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>
@@ -37,7 +37,7 @@ const Portfolio = () => {
               This is news website. The code is written on React.js for frondend
               and ASP.NET Core API for beckend.
             </p>
-            <a href="https://github.com/nfsmitko/News-App">
+            <a href="https://github.com/nfsmitko/News-App" target="_blank">
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>
@@ -52,7 +52,7 @@ const Portfolio = () => {
               This is Weather App for the current time weather. The code is
               written on React.js for frondend and ASP.NET Core API for backend.
             </p>
-            <a href="https://github.com/nfsmitko/Weather-App">
+            <a href="https://github.com/nfsmitko/Weather-App" target="_blank">
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>
@@ -68,7 +68,7 @@ const Portfolio = () => {
               and for data base MSSQL. Users can make new posts, coments and
               also can like and dislike the coments.
             </p>
-            <a href="https://github.com/nfsmitko/GameForum">
+            <a href="https://github.com/nfsmitko/GameForum" target="_blank">
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>
