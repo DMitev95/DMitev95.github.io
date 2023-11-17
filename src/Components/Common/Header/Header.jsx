@@ -16,7 +16,7 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <header className="home-header">
-      <a href="#" className="logo">
+      <a href="/" className="logo">
         Dimitar
       </a>
 
