@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nfsmitko.github.io/static/css/main.6411d9ef.css",
-    "main.js": "/nfsmitko.github.io/static/js/main.9b634c14.js",
-    "static/js/787.e02255f9.chunk.js": "/nfsmitko.github.io/static/js/787.e02255f9.chunk.js",
-    "static/media/NewsApp.png": "/nfsmitko.github.io/static/media/NewsApp.5f837cfb203d9df47445.png",
-    "static/media/GameForum.png": "/nfsmitko.github.io/static/media/GameForum.90cc4350d25739ea5545.png",
-    "static/media/Dimitar.png": "/nfsmitko.github.io/static/media/Dimitar.e1442359b14c3dd57c96.png",
-    "static/media/WeatherApp.png": "/nfsmitko.github.io/static/media/WeatherApp.f1ead55354ff4012e6b1.png",
-    "static/media/OnlineRadio.png": "/nfsmitko.github.io/static/media/OnlineRadio.8d369be0d8f21a80549d.png",
-    "index.html": "/nfsmitko.github.io/index.html",
-    "main.6411d9ef.css.map": "/nfsmitko.github.io/static/css/main.6411d9ef.css.map",
-    "main.9b634c14.js.map": "/nfsmitko.github.io/static/js/main.9b634c14.js.map",
-    "787.e02255f9.chunk.js.map": "/nfsmitko.github.io/static/js/787.e02255f9.chunk.js.map"
+    "main.css": "./static/css/main.6411d9ef.css",
+    "main.js": "./static/js/main.201e9d5e.js",
+    "static/js/787.e02255f9.chunk.js": "./static/js/787.e02255f9.chunk.js",
+    "static/media/NewsApp.png": "./static/media/NewsApp.5f837cfb203d9df47445.png",
+    "static/media/GameForum.png": "./static/media/GameForum.90cc4350d25739ea5545.png",
+    "static/media/Dimitar.png": "./static/media/Dimitar.e1442359b14c3dd57c96.png",
+    "static/media/WeatherApp.png": "./static/media/WeatherApp.f1ead55354ff4012e6b1.png",
+    "static/media/OnlineRadio.png": "./static/media/OnlineRadio.8d369be0d8f21a80549d.png",
+    "index.html": "./index.html",
+    "main.6411d9ef.css.map": "./static/css/main.6411d9ef.css.map",
+    "main.201e9d5e.js.map": "./static/js/main.201e9d5e.js.map",
+    "787.e02255f9.chunk.js.map": "./static/js/787.e02255f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6411d9ef.css",
-    "static/js/main.9b634c14.js"
+    "static/js/main.201e9d5e.js"
   ]
 }
