@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .heading {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  display: relative;
+}
+
+.contact-info .content {
+  border-bottom: 0.2rem solid #081b29;
+  border-radius: 20%;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 1rem 2rem #00abf0;
+}
+
+@media screen and (max-width: 448px) and (min-width: 320px) {
+  .contact-info .content {
+    border-bottom: none;
+    border-radius: 0;
+    font-size: 1.3rem;
+    box-shadow: none;
+  }
+}

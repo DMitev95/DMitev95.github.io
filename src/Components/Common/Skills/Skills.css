@@ -1,0 +1,128 @@
+#skills {
+  min-height: auto;
+  background: #081b29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills .heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.skills .skills-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-row .skills-column {
+  flex: 1 1 40rem;
+}
+.skills-column .title {
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem;
+  text-decoration: underline;
+  display: flex;
+  gap: 1rem;
+}
+
+.skills-box .skills-content,
+.soft-skills-box .skills-content {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem 16rem;
+}
+
+.skills-box .skills-content {
+  position: relative;
+  border-top: 0.2rem solid #00abf0;
+  border-right: 0.2rem solid #00abf0;
+}
+
+.soft-skills-box .skills-content {
+  position: relative;
+  border-top: 0.2rem solid #00abf0;
+}
+
+.skills-content .skills {
+  padding-bottom: 1rem;
+}
+
+.skills-box .skills-content:last-child,
+.soft-skills-box .skills-content:last-child {
+  padding-bottom: 0;
+}
+
+.skills-box .skills-content .skills,
+.soft-skills-box .skills-content .skills {
+  padding: 2px 12px;
+  border: 0.2px solid #00abf0;
+  border-radius: 5px;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.skills-content .skills h3 {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1111px) {
+  .skills-box .skills-content {
+    border-right: none;
+  }
+  .skills-box {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .skills-box .skills-content {
+    border-right: none;
+  }
+  .skills-box {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  #skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skills-box {
+    margin-bottom: 5rem;
+  }
+
+  .skills-box .skills-content {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  #skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skills-box {
+    margin-bottom: 5rem;
+  }
+
+  .skills-box .skills-content {
+    border-right: none;
+  }
+}

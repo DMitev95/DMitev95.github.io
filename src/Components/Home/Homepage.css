@@ -1,0 +1,274 @@
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  padding: 0 9%;
+}
+
+.home-content {
+  max-width: 60rem;
+  margin-right: auto;
+}
+
+.home-content h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.home-content .text-animate {
+  position: relative;
+  width: 60rem;
+}
+
+.home-content .text-animate h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 0.7px #00abf0;
+  background-image: linear-gradient(#00abf0, #00abf0);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: homeBgText 6s linear infinite;
+  animation-delay: 1s;
+}
+
+.home-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 4rem;
+}
+
+.home-sci {
+  bottom: 4rem;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-sci a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0.2rem solid #00abf0;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #00abf0;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.home-sci a:hover {
+  color: #081b29;
+}
+
+.home-sci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00abf0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.home-sci a:hover::before {
+  width: 100%;
+}
+
+.home-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 20rem;
+  background: transparent;
+  transition: 3s;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid #081b29;
+  border-radius: 50%;
+  background: #112e42;
+  box-shadow: 0 0.5rem 1rem #00abf0;
+  overflow: hidden;
+}
+
+.home-img:hover {
+  background: #081b29;
+  opacity: 0.8;
+}
+
+.home-img img {
+  width: 65%;
+}
+.home-img .spin {
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem #00abf0;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes homeBgText {
+  0%,
+  10%,
+  100% {
+    background-position: -60rem 0;
+  }
+  65%,
+  85% {
+    background-position: 0 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home {
+    padding: 0 4%;
+  }
+
+  .home-content {
+    z-index: 99;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+  .home-content h1 {
+    font-size: 4.5rem;
+  }
+
+  .home-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+  }
+
+  .home-img {
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .home-img:hover {
+    display: none;
+  }
+
+  .home-img img {
+    width: 65%;
+  }
+  .home-img .spin {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .home {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+
+  .home-content h1 {
+    font-size: 4rem;
+  }
+
+  .home-content .text-animate {
+    width: auto;
+  }
+
+  .home-img {
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  .home-img:hover {
+    display: none;
+  }
+
+  .home-img img {
+    width: 65%;
+  }
+  .home-img .spin {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .home {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    /* display: flex; */
+  }
+
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-content .text-animate h3 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .home-content .text-animate {
+    width: auto;
+  }
+
+  .home-img {
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  .home-img:hover {
+    display: none;
+  }
+
+  .home-img img {
+    width: 65%;
+  }
+  .home-img .spin {
+    display: none;
+  }
+}

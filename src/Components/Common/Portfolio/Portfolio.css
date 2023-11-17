@@ -1,0 +1,125 @@
+.portfolio-section .heading {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.portfolio-container .portfolio-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem #00abf0;
+  overflow: hidden;
+  display: flex;
+  height: 29.5rem;
+  width: 49.2rem;
+}
+
+.portfolio-box img {
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover img {
+  transform: scale(1.5);
+}
+
+.portfolio-box .portfolio-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #00abf0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
+}
+
+.portfolio-layer .title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-layer .description {
+  font-size: 2rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.portfolio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: #ededed;
+  border-radius: 50%;
+}
+
+.portfolio-layer a .link-icon {
+  font-size: 2rem;
+  color: #112e42;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .portfolio-container {
+    grid-template-columns: repeat(1, 0.1fr);
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .portfolio-container {
+    grid-template-columns: repeat(1, 0.1fr);
+  }
+
+  .portfolio-container .portfolio-box {
+    height: 29.5rem;
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .portfolio-container {
+    grid-template-columns: repeat(1, 0.1fr);
+  }
+
+  .portfolio-container .portfolio-box {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .portfolio-layer .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .portfolio-layer .description {
+    font-size: 1.5rem;
+    margin: 0.1rem 0 0.5rem;
+  }
+
+  .portfolio-layer a {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .portfolio-layer a .link-icon {
+    font-size: 1.5rem;
+  }
+}
