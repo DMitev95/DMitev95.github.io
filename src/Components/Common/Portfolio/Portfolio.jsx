@@ -14,7 +14,7 @@ const Portfolio = () => {
       </h2>
       <div className="portfolio-container">
         <div className="portfolio-box">
-          <img src={OnlineRadioPicture} className="image" />
+          <img src={OnlineRadioPicture} className="image" alt="Online Radio" />
           <div className="portfolio-layer">
             <h4 className="title">Online Radio</h4>
             <p className="description">
@@ -22,7 +22,11 @@ const Portfolio = () => {
               display top 30 radio stations from Bulgaria. Website is build with
               React.js.
             </p>
-            <a href="https://github.com/nfsmitko/OnlineRadio" target="_blank">
+            <a
+              href="https://github.com/nfsmitko/OnlineRadio"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>
@@ -30,14 +34,18 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="portfolio-box">
-          <img src={NewsWebsitePicture} className="image" />
+          <img src={NewsWebsitePicture} className="image" alt="News website" />
           <div className="portfolio-layer">
             <h4 className="title">News Website</h4>
             <p className="description">
               This is news website. The code is written on React.js for frondend
               and ASP.NET Core API for beckend.
             </p>
-            <a href="https://github.com/nfsmitko/News-App" target="_blank">
+            <a
+              href="https://github.com/nfsmitko/News-App"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>
@@ -45,14 +53,18 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="portfolio-box">
-          <img src={WeatherAppPicture} className="image" />
+          <img src={WeatherAppPicture} className="image" alt="Weather app" />
           <div className="portfolio-layer">
             <h4 className="title">Weather App</h4>
             <p className="description">
               This is Weather App for the current time weather. The code is
               written on React.js for frondend and ASP.NET Core API for backend.
             </p>
-            <a href="https://github.com/nfsmitko/Weather-App" target="_blank">
+            <a
+              href="https://github.com/nfsmitko/Weather-App"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>
@@ -60,7 +72,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="portfolio-box">
-          <img src={GameForumPicture} className="image" />
+          <img src={GameForumPicture} className="image" alt="Game forum" />
           <div className="portfolio-layer">
             <h4 className="title">Game Forum</h4>
             <p className="description">
@@ -68,7 +80,11 @@ const Portfolio = () => {
               and for data base MSSQL. Users can make new posts, coments and
               also can like and dislike the coments.
             </p>
-            <a href="https://github.com/nfsmitko/GameForum" target="_blank">
+            <a
+              href="https://github.com/nfsmitko/GameForum"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="link-icon">
                 <BiLinkExternal></BiLinkExternal>
               </i>

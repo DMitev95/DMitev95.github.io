@@ -24,10 +24,15 @@ const Homepage = () => {
             <a
               href="https://www.linkedin.com/in/dimitar-mitev-625667239/"
               target="_blank"
+              rel="noreferrer"
             >
               <GrLinkedinOption></GrLinkedinOption>
             </a>
-            <a href="https://github.com/nfsmitko" target="_blank">
+            <a
+              href="https://github.com/DMitev95"
+              target="_blank"
+              rel="noreferrer"
+            >
               <GrGithub></GrGithub>
             </a>
           </div>

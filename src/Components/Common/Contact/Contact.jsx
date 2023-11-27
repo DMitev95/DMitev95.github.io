@@ -1,12 +1,7 @@
 import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faEnvelope,
-  faLocationDot,
-  faLinkedin,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import "./Contact.css";
 
@@ -45,7 +40,11 @@ const Contact = () => {
               </span>
             </i>
             LinkedIn:
-            <a href="https://www.linkedin.com/in/dimitar-mitev-625667239/">
+            <a
+              href="https://www.linkedin.com/in/dimitar-mitev-625667239/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span>
                 {" "}
                 Dimitar Mitev
