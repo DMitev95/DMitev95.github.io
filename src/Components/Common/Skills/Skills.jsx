@@ -36,7 +36,7 @@ const Skills = () => {
                 <h3>MS SQL</h3>
               </div>
               <div className="skills">
-                <h3>JSON/XML</h3>
+                <h3>JSON</h3>
               </div>
               <div className="skills">
                 <h3>ASP.NET Core</h3>

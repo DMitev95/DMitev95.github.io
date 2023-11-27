@@ -12,7 +12,7 @@ const Homepage = () => {
           Hi, I am <span>Dimitar Mitev</span>
         </h1>
         <div className="text-animate">
-          <h3>Frontend Developer</h3>
+          <h3>Backend Developer</h3>
           <p>
             I am a highly driven and ambitious software engineering student with
             growing knowledge of both programming concepts and different
