@@ -18,9 +18,7 @@ const Portfolio = () => {
           <div className="portfolio-layer">
             <h4 className="title">Online Radio</h4>
             <p className="description">
-              This is a website that allows you to listen radio online. Its
-              display top 30 radio stations from Bulgaria. Website is build with
-              React.js.
+            This is a website that allows you to listen to the top 30 radios in Bulgaria. The code is written in React.JS.
             </p>
             <a
               href="https://github.com/nfsmitko/OnlineRadio"
@@ -38,8 +36,7 @@ const Portfolio = () => {
           <div className="portfolio-layer">
             <h4 className="title">News Website</h4>
             <p className="description">
-              This is news website. The code is written on React.js for frondend
-              and ASP.NET Core API for beckend.
+            This is a website that displays top news in a given category. The code is written in React.JS for the frontend, and for the backend, I use ASP.NET Core API.
             </p>
             <a
               href="https://github.com/nfsmitko/News-App"
@@ -57,8 +54,7 @@ const Portfolio = () => {
           <div className="portfolio-layer">
             <h4 className="title">Weather App</h4>
             <p className="description">
-              This is Weather App for the current time weather. The code is
-              written on React.js for frondend and ASP.NET Core API for backend.
+            This is a website that displays the current weather for a specified city. The code is written in React.JS for the frontend, and for the backend, I use ASP.NET Core API.
             </p>
             <a
               href="https://github.com/nfsmitko/Weather-App"
@@ -76,9 +72,7 @@ const Portfolio = () => {
           <div className="portfolio-layer">
             <h4 className="title">Game Forum</h4>
             <p className="description">
-              This is siple web forum for games. Its build with ASP.NET Core MVC
-              and for data base MSSQL. Users can make new posts, coments and
-              also can like and dislike the coments.
+            This is an online forum for video games, and the project is written using the MVC pattern. Users can like and dislike comments. I use MSSQL for the database.
             </p>
             <a
               href="https://github.com/nfsmitko/GameForum"

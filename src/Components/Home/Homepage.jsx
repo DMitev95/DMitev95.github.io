@@ -16,7 +16,7 @@ const Homepage = () => {
           <p>
             I am a highly driven and ambitious software engineering student with
             growing knowledge of both programming concepts and different
-            programming languages.I'm exited to gather skills and knowledge from
+            programming languages. I'm excited to gather skills and knowledge from
             experienced mentors in the industry, as well as contribute with
             passion to real projects and products in the field.
           </p>
