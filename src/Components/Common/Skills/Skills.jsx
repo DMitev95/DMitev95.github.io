@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="skills-row">
         <div className="skills-column">
           <h3 className="title">
-            <span>Codding </span> Skills
+            <span>Coding </span> Skills
           </h3>
           <div className="skills-box">
             <div className="skills-content">
