@@ -87,6 +87,22 @@ const Education = () => {
             </div>
             <div className="education-content">
               <div className="content">
+                <h3>React.JS</h3>
+                <a
+                  href="https://www.udemy.com/certificate/UC-d1915836-7f24-489b-8f77-08fa78684975/"
+                  className="link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  The Ultimate React Course 2024: React, Reduc and More.
+                  <i className="link-icon">
+                    <BiLinkExternal></BiLinkExternal>
+                  </i>
+                </a>
+              </div>
+            </div>
+            <div className="education-content">
+              <div className="content">
                 <h3>C# OOP</h3>
                 <a
                   href="https://softuni.bg/certificates/details/131034/e0d90839"
